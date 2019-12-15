@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#413faf));
+  background-image: linear-gradient(to bottom right, black, #413faf);
+}
+
+header div:nth-child(2) h1 {
+  height: 100%;
+  color: white;
+  font-size: 4rem;
+}
+
+header .info ul {
+  padding: 20px;
+  display: none;
+  border-radius: 40px;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+  list-style: none;
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(#8b8565));
+  background: linear-gradient(to bottom right, white, #8b8565);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .info ul li {
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  -webkit-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+}
+
+header .info:hover img {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  height: 400px;
+  width: 400px;
+}
+
+header .info:hover ul {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 350px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  header .info:hover img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+  }
+}
+
+section {
+  background: #ebe0e0;
+}
+
+section .descripcion h4 {
+  padding: 20px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+section .descripcion li {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+section .descripcion p {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#413faf));
+  background-image: linear-gradient(to bottom right, black, #413faf);
+}
+
+header div:nth-child(2) h1 {
+  height: 100%;
+  color: white;
+  font-size: 4rem;
+}
+
+header .info ul {
+  padding: 20px;
+  display: none;
+  border-radius: 40px;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+  list-style: none;
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(#8b8565));
+  background: linear-gradient(to bottom right, white, #8b8565);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .info ul li {
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  -webkit-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+}
+
+header .info:hover img {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  height: 400px;
+  width: 400px;
+}
+
+header .info:hover ul {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 350px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  header .info:hover img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+  }
+}
+
+.conocimientos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#413faf));
+  background-image: linear-gradient(to bottom right, black, #413faf);
+  color: white;
+}
+
+.conocimientos h4 {
+  font-size: 3rem;
+}
+
+.conocimientos ul {
+  list-style: none;
+}
+
+.conocimientos ul li {
+  padding: 10px;
+}
+
+.conocimientos ul li a {
+  color: white;
+  font-size: 2rem;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  text-decoration: none;
+}
+
+.conocimientos ul li a:hover {
+  cursor: pointer;
+  font-size: 3rem;
+  color: red;
+}
+
+.conocimientos ul li i {
+  color: crimson;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1230px) {
+  .conocimientos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .conocimientos h4 {
+    font-size: 2rem;
+  }
+  .conocimientos ul {
+    padding: 20px;
+  }
+  .conocimientos ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+section {
+  background: #ebe0e0;
+}
+
+section .descripcion h4 {
+  padding: 20px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+section .descripcion li {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+section .descripcion p {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#413faf));
+  background-image: linear-gradient(to bottom right, black, #413faf);
+}
+
+header div:nth-child(2) h1 {
+  height: 100%;
+  color: white;
+  font-size: 4rem;
+}
+
+header .info ul {
+  padding: 20px;
+  display: none;
+  border-radius: 40px;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+  list-style: none;
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(#8b8565));
+  background: linear-gradient(to bottom right, white, #8b8565);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .info ul li {
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  -webkit-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+}
+
+header .info:hover img {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  height: 400px;
+  width: 400px;
+}
+
+header .info:hover ul {
+  -webkit-box-shadow: 10px 10px 5px black;
+          box-shadow: 10px 10px 5px black;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 350px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  header .info:hover img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header div:nth-child(2) h1 {
+    font-size: 2rem;
+  }
+}
+
+.proyectos h4 {
+  padding: 20px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.proyectos li {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+.proyectos figure div {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.proyectos figure div h4 {
+  font-size: 2rem;
+}
+
+.proyectos figure div img {
+  height: 200px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1230px) {
+  .proyectos figure div {
+    width: 50%;
+  }
+}
+
+form {
+  background: #413faf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+
+form h4 {
+  font-size: 4rem;
+}
+
+form label {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+form input {
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 30px;
+}
+
+form textarea {
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 30px;
+  height: 200px;
+  padding: 20px;
+}
+
+form button {
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1230px) {
+  form button {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+@mixin articulo{
+    h4{
+        padding: 20px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    li{
+        padding: 50px;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 100px;
+
+    }
+}
+
+section{
+    background: rgb(235, 224, 224);
+    .descripcion{
+        @include articulo;
+
+        p{
+            padding: 50px;
+            font-size: 2rem;
+            text-align: center;
+            line-height: 100px;
+        }
+    }
+}

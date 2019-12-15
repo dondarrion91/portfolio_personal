@@ -1,0 +1,28 @@
+@import "datos";
+@import "header";
+
+.proyectos{
+    @include articulo;
+    figure{
+        div{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            h4{
+                font-size: 2rem;
+                
+            }
+            img{
+                height: 200px;
+                
+            }
+        }
+        @media screen and (min-width:450px) and (max-width:1230px){
+            div{
+                width: 50%;
+            }
+        }
+        
+    }
+}

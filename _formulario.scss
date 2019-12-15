@@ -1,0 +1,42 @@
+@mixin inputt{
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 30px;  
+}
+
+
+form{
+    background: $header;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    h4{
+        font-size: 4rem;
+    }
+    label{
+        font-size: 2rem;
+        padding: 20px;
+    }
+    input{
+        @include inputt;
+        
+    }
+    textarea{
+        @include inputt;
+        height: 200px;
+        padding: 20px;
+    }
+    button{
+        @include inputt;
+        margin-top: 20px;
+        margin-left: 500px;
+        margin-right: 500px;
+        
+    }
+    @media screen and (min-width:450px) and (max-width:1230px){
+        button{
+            margin:0;
+            margin-top: 20px;
+        }
+    }
+}

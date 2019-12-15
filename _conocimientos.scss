@@ -1,0 +1,52 @@
+@import "header";
+
+.conocimientos{
+    @include encabezado;
+    color: white;
+    h4{
+        font-size: 3rem;
+    }
+    ul{
+        list-style: none;
+        li{
+            padding: 10px;
+            a{
+                color: white;
+                font-size: 2rem;
+                transition: font-size 0.5s;
+                text-decoration: none;
+            }
+            
+        }
+        li{
+            a:hover{
+                cursor: pointer;
+                font-size: 3rem;
+                color: red;
+            }
+            
+            i{
+                color: crimson;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:1230px){
+    .conocimientos{
+        
+        flex-direction: column;
+        h4{
+            font-size: 2rem;
+        }
+        ul{
+            padding: 20px;
+            li{
+                a{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
